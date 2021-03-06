@@ -1,0 +1,37 @@
+@font-face {
+  font-family: tajawalLight;
+  src: url("/fonts/Tajawal/Tajawal-Light.ttf");
+}
+
+@font-face {
+  font-family: viga;
+  src: url("/fonts/Viga/Viga-Regular.ttf");
+}
+
+.tajawal-light {
+  font-family: tajawalLight;
+}
+.viga {
+  font-family: viga;
+}
+
+nav {
+  /* background-color: #16687d; */
+  background-color: #284452;
+}
+
+.bg-warna {
+  background-color: #142a35;
+}
+
+.warna {
+  color: #142a35;
+}
+
+.kartu {
+  height: 105%;
+}
+
+.profile {
+  width: 25%;
+}
