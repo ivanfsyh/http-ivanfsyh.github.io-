@@ -1,12 +1,12 @@
-@font-face {
+/* @font-face {
   font-family: tajawalLight;
-  src: url("/fonts/Tajawal/Tajawal-Light.ttf");
-}
+  src: url("fonts/Tajawal/Tajawal-Light.ttf");
+} */
 
-@font-face {
+/* @font-face {
   font-family: viga;
-  src: url("/fonts/Viga/Viga-Regular.ttf");
-}
+  src: url("fonts/Viga/Viga-Regular.ttf");
+} */
 
 .tajawal-light {
   font-family: tajawalLight;
