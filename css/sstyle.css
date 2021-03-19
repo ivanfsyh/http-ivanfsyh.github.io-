@@ -1,0 +1,42 @@
+@font-face {
+  font-family: viga;
+  src: url("fonts/Viga/Viga-Regular.ttf");
+}
+
+.viga {
+  font-family: viga;
+}
+
+nav {
+  /* background-color: #16687d; */
+  background-color: #284452;
+}
+
+.bg-warna {
+  background-color: #142a35;
+}
+
+.warna {
+  color: #142a35;
+}
+
+.kartu {
+  height: 105%;
+}
+
+.profile {
+  width: 16%;
+}
+
+.jumbotron {
+  padding-top: 2rem;
+  background-color: #142a35;
+}
+
+.project {
+  background-color: #142a35;
+}
+
+section {
+  padding-top: 5rem;
+}

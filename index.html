@@ -3,78 +3,84 @@
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
 
-    <!-- My CSS -->
-    <link rel="stylesheet" href="css/style.css">
+     <!-- My CSS -->
+     <link rel="stylesheet" href="css/sstyle.css">
 
      <!-- Fontawesome CSS -->
      <script src="https://kit.fontawesome.com/508a68fe0a.js" crossorigin="anonymous"></script>
 
-    <title>My Portfolio</title>
+    <title>Ivan Firmansyah</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
-        <div class="container">
-            <a class="navbar-brand viga" href="/">
-                <img src="img/logo-bioIvan.png" width="30" height="30" class="d-inline-block align-top" alt="logo">
-                IvanF.
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active ">
-                        <a class="nav-link" href="#home">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#about">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#portfolio">Portfolio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact</a>
-                    </li>
-                </ul>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: #284452;">
+    <div class="container">
+        <a class="navbar-brand" href="#home">
+          <img src="img/logo-bioIvan.png" alt="" width="30" height="30" class=" viga d-inline-block align-top">
+          IvanF.
+        </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav ms-auto">
+          <a class="nav-link active" aria-current="page" href="#home">Home</a>
+          <a class="nav-link" href="#about">About</a>
+          <a class="nav-link" href="#project">Project</a>
+          <a class="nav-link" href="#contact">Contact</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+<!-- Akhir Navbar -->
+
+<!-- Jumbotro -->
+<section id="home" class="jumbotron">
+    <div class="col-lg mt-3 text-center text-white pt-5">
+        <img src="img/ivan.png" class="profile rounded-circle">
+        <h5 class="display-4">Ivan Firmansyah</h5>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffff" fill-opacity="1" d="M0,224L48,234.7C96,245,192,267,288,256C384,245,480,203,576,181.3C672,160,768,160,864,176C960,192,1056,224,1152,213.3C1248,203,1344,149,1392,122.7L1440,96L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+    </div>
+</section>
+<!-- Akhir Jumbotro -->
+
+<!-- About -->
+<section class="about" id="about">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg">
+                <h2 class="text-center warna"> <strong>About Me</strong> </h2>
             </div>
         </div>
-    </nav>
-    <section id="home">
-        <div class="jumbotron jumbotron-fluid text-white bg-warna">
-            <div class="container">
-                <div class="row mt-4">
-                    <div class="col-lg mt-3 text-center">
-                        <img src="img/ivan.png" class="profile rounded-circle">
-                        <h4 class="display-4"><strong>Ivan Firmansyah</strong></h4>
+        <div class="row mt-4 justify-content-around">
+            <div class="col-lg-6">
+                <div class="card">
+                    <div class="card-body">
+                        <p class="text-center fs-5">
+                            Saya adalah pribadi yang disiplin, bertanggung jawab, humoris,
+                            senang belajar hal baru, mampu berkerjasama secara pribadi dan
+                            kelompok dengan baik, mampu bekerja dibawah tekanan dan ingin
+                            terus menjadi pribadi yang lebih baik.
+                        </p>
                     </div>
-                </div>
+                  </div>                
             </div>
-        </div>
-    </section>
-    
-    <section id="about">
-        <div class="container pt-5">
-            <div class="row mt-4 justify-content-center">
-                <div class="col col-lg-6">
-                    <h3 class="text-center">About</h3>
-                    <p class="text-center">Saya adalah pribadi yang disiplin, bertanggung jawab, humoris,
-                        senang belajar hal baru, mampu berkerjasama secara pribadi dan
-                        kelompok dengan baik, mampu bekerja dibawah tekanan dan ingin
-                        terus menjadi pribadi yang lebih baik.</p>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg">
-                    <div class="card kartu shadow-lg">
-                        <div class="card-header">
-                            <h5 class="text-center">Personal</h5>
-                        </div>
-                        <div class="card-body">
+            <div class="col-lg-5">
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                         Personal
+                        </button>
+                      </h2>
+                      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
                             <ul class="list-group">
                                 <li class="list-group-item"><i class="fas fa-baby"></i> Kuningan, 20 Maret 1998</li>
                                 <li class="list-group-item"><i class="fas fa-user"></i> Laki-laki</li>
@@ -83,253 +89,212 @@
                                 <li class="list-group-item"><i class="fas fa-globe-asia"></i> WNI</li>
                             </ul>
                         </div>
+                      </div>
                     </div>
-                </div>
-                <div class="col-lg">
-                    <div class="card kartu shadow-lg">
-                        <div class="card-header">
-                            <h5 class="text-center">Hobi</h5>
-                        </div>
-                        <div class="card-body">
-                            <ul class="list-group">
-                                <li class="list-group-item"><i class="far fa-futbol"></i> Futsal</li>
-                            </ul>
-                        </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            hobby
+                        </button>
+                      </h2>
+                      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                        <ul class="list-group">
+                            <li class="list-group-item"><i class="far fa-futbol"></i> Futsal</li>
+                        </ul>
+                      </div>
                     </div>
-                </div>
-                <div class="col-lg">
-                    <div class="card kartu shadow-lg">
-                        <div class="card-header">
-                            <h5>Keahlian</h5>
-                        </div>
-                        <div class="card-body">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                          Keahlian
+                        </button>
+                      </h2>
+                      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
                             <h5 class="card-text warna"><strong>Programmer | PHP</strong></h5>
                             <p>Tingkat : Pemula</p>
-                            <h5 class="card-text warna"><strong>Framework | CodeIgter</strong></h5>
+                            <h5 class="card-text warna"><strong>Framework | CodeIgniter</strong></h5>
                             <p>Tingkat : Pemula</p>
                             <h5 class="card-text warna"><strong>Desain Grafis | CorelDraw</strong></h5>
                             <p>Tingkat : Menengah</p>
                         </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row mt-5 text-center">
-                <div class="col-lg">
-                    <div class="card kartu shadow-lg">
-                        <div class="card-header">
-                            <h5>Pendidikan</h5>
-                        </div>
-                        <div class="card-body">
-                            <h5 class="card-text warna"><strong>2012 - 2015 | IPA</strong></h5>
-                            <p>SMAN1 Mandirancan - Kuningan</p>
-                            <h5 class="card-text warna"><strong>2015 - 2018 | D3 Teknik Komputer</strong></h5>
-                            <p>Institut Pertanian Bogor</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg">
-                    <div class="card kartu shadow-lg">
-                        <div class="card-header">
-                            <h5>Pengalaman Organisasi</h5>
-                        </div>
-                        <div class="card-body">
-                            <h5 class="card-text warna"><strong>Forum Rohis Diploma IPB</strong></h5>
-                            <p>Anggota Dept. Syiar | 2015 - 2016</p>
-                            <h5 class="card-text warna"><strong>LDK Al Ghifari IPB</strong></h5>
-                            <p>Ketua umum | 2016 - 2017</p>
-                            <h5 class="card-text warna"><strong>Takmir Masjid Al Ghifari IPB</strong></h5>
-                            <p>Ketua harian takmir | 2017 - 2018</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg">
-                    <div class="card kartu shadow-lg">
-                        <div class="card-header">
-                            <h5>Pengalaman Kerja</h5>
-                        </div>
-                        <div class="card-body">
-                            <p>Internship Program</p>
-                            <h6 class="card-text warna"><strong>Februari - April 2018 | PT Telekomunikasi Indonesia</strong></h6>
-                            <p class="warna">Unit Networking & Information System</p>
-    
-                            <p>Pegawai Kontrak</p>
-                            <h6 class="card-text warna"><strong>Maret 2019 - Februari 2021 | Perum Peruri</strong></h6>
-                            <p class="warna">Khazanah Cetak Uang Kertas</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    
-    <section id="portfolio">
-        <div class="container mt-5 jumbotron">
-            <div class="row text-center justify-content-center">
-                <div class="col col-lg-7">
-                    <h3>Aplikasi Persedian dan Siap Cetak
-                        LKU (Lembar Kertas Uang) berbasis Web</h3>
-                    <p>Aplikasi ini digunakan oleh pegawai untuk melihat total persedian LKU dari
-                        setiap proses dan berapa jumlah LKU yang siap cetak atau untuk di proses ketahap selanjutnya.</p>
-                </div>
-            </div>
-            <div class="row mt-3">
-                <div class="col-lg">
-                    <div class="card shadow">
-                        <img src="img/stockfile/1.jpg" class="card-img-top" alt="st1">
-                        <div class="card-body">
-                            <p class="card-text text-center">Halaman login aplikasi</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg">
-                    <div class="card shadow">
-                        <img src="img/stockfile/2.jpg" class="card-img-top" alt="st2">
-                        <div class="card-body">
-                            <p class="card-text text-center">Halaman persedian proses cetak
-                                LKU belakang</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row mt-2">
-                <div class="col-lg">
-                    <div class="card shadow">
-                        <img src="img/stockfile/3.jpg" class="card-img-top" alt="st1">
-                        <div class="card-body">
-                            <p class="card-text text-center">Input produksi LKU belakang</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg">
-                    <div class="card shadow">
-                        <img src="img/stockfile/4.jpg" class="card-img-top" alt="st2">
-                        <div class="card-body">
-                            <p class="card-text text-center">Halaman detail data LKU belakang</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    
-    <section id="contact">
-        <div class="container pt-3">
-            <div class="row">
-                <div class="col-lg text-center">
-                    <h3>Contact Me</h3>
-                </div>
-            </div>
-            <div class="row mt-4 justify-content-center">
-                <div class="col-lg-4">
-                    <div class="card text-white bg-warna mb-3">
-                        <div class="card-header">
-                            <h5 class="text-center">Contact</h5>
-                        </div>
-                        <div class="card-body">
-                            <p class="card-text"><i class="fas fa-envelope"></i> ivanf.if06@gmail.com</p>
-                            <p class="card-text">
-                                <i class="fab fa-linkedin"></i>
-                                <a href="https://www.linkedin.com/in/ivan-firmansyah-9027301a3/" class="text-white" target="_blank">Ivan Firmansyah</a>
-                            </p>
-                        </div>
-                    </div>
-                </div>  
-                <div class="col-lg-8">
-                    <div class="alert alert-success alert-dismissible fade show d-none my-alert" role="alert">
-                        <strong>Berhasil!</strong> pesan Anda sudah saya terima. Terima kasih
-                        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-                          <span aria-hidden="true">&times;</span>
-                        </button>
                       </div>
-                      <div class="alert alert-success alert-dismissible fade show d-none my-alert-gagal" role="alert">
-                        <strong>Gagal!</strong> Maaf, pesan Anda tidak terkirim.
-                        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-                          <span aria-hidden="true">&times;</span>
-                        </button>
-                      </div>
-                    <form name="form-bioIvan">
-                        <div class="form-group">
-                          <label for="nama">Nama</label>
-                          <input type="text" class="form-control" id="nama" name="nama" required>
-                        <div class="form-group">
-                          <label for="email">Email</label>
-                          <input type="email" class="form-control" id="email" name="email" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="pesan">Pesan</label>
-                            <textarea class="form-control" id="pesan" name="pesan" rows="3" required></textarea>
-                          </div>
-                        <button type="submit" class="btn btn-primary btn-kirim">Kirim</button>
-                        <button class="btn btn-primary btn-loading d-none" type="button" disabled>
-                            <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
-                            Loading...
-                          </button>
-                      </form>
-                </div>              
+                    </div>
+                  </div>
             </div>
         </div>
-    </section>
-    
-    
-    <footer class="mt-5">
-        <div class="row pb-3" style="background-color: rgba(0, 0, 0, 0.2);">
-            <div class="col">
-                <!-- Copyright -->
-                <div class="text-center p-3">
-                    created with <i class="fas fa-heart text-danger"></i> by
-                    <a class="text-dark font-weight-bold" target="_blank" href="https://www.instagram.com/ivanfsyh/"><i class="fab fa-instagram"></i> ivanfsyh</a>
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#142a35" fill-opacity="1" d="M0,160L48,170.7C96,181,192,203,288,202.7C384,203,480,181,576,165.3C672,149,768,139,864,149.3C960,160,1056,192,1152,202.7C1248,213,1344,203,1392,197.3L1440,192L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+</section>
+<!-- Akhir About -->
+
+<!-- Project -->
+<section class="project" id="project">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg">
+                <h2 class="text-center text-white"> <strong>My Project</strong> </h2>
+            </div>
+        </div>
+        <div class="row mt-4 text-white text-center justify-content-center">
+            <div class="col-lg-8">
+                <p class="fs-5">Aplikasi Persedian dan Siap Cetak
+                    LKU (Lembar Kertas Uang) berbasis Web</p>                
+            </div>
+        </div>
+        <div class="row text-white text-center justify-content-center">
+            <div class="col-lg-7">
+                <p>Aplikasi ini digunakan oleh pegawai untuk melihat total persedian LKU dari
+                    setiap proses dan berapa jumlah LKU yang siap cetak atau untuk di proses ketahap selanjutnya.</p>
+            </div>
+        </div>
+        <div class="row mt-3">
+            <div class="col-lg">
+                <div class="card shadow">
+                    <img src="img/stockfile/1.jpg" class="card-img-top" alt="st1">
+                    <div class="card-body">
+                        <p class="card-text text-center">Halaman login aplikasi</p>
+                    </div>
                 </div>
-                <!-- Copyright -->
+            </div>
+            <div class="col-lg">
+                <div class="card shadow">
+                    <img src="img/stockfile/2.jpg" class="card-img-top" alt="st2">
+                    <div class="card-body">
+                        <p class="card-text text-center">Halaman persedian proses cetak
+                            LKU belakang</p>
+                    </div>
+                </div>
             </div>
         </div>
-    </footer>
-    
+        <div class="row mt-2">
+            <div class="col-lg">
+                <div class="card shadow">
+                    <img src="img/stockfile/3.jpg" class="card-img-top" alt="st1">
+                    <div class="card-body">
+                        <p class="card-text text-center">Input produksi LKU belakang</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg">
+                <div class="card shadow">
+                    <img src="img/stockfile/4.jpg" class="card-img-top" alt="st2">
+                    <div class="card-body">
+                        <p class="card-text text-center">Halaman detail data LKU belakang</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffff" fill-opacity="1" d="M0,96L48,80C96,64,192,32,288,48C384,64,480,128,576,176C672,224,768,256,864,261.3C960,267,1056,245,1152,218.7C1248,192,1344,160,1392,144L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>  
+</section>
+<!-- Akhir Project -->
 
-    <!-- Optional JavaScript; choose one of the two! -->
+<!-- Contact -->
+<section class="contact" id="contact"> 
+    <div class="container">
+        <div class="row">
+            <div class="col-lg">
+                 <h2 class="text-center warna"> <strong>Contact Me</strong> </h2>                
+            </div>
+        </div>
+        <div class="row mt-4 justify-content-center">
+            <div class="col-lg-4">
+                <div class="card text-white bg-warna mb-3">
+                    <div class="card-header">
+                        <h5 class="text-center">Contact</h5>
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text"><i class="fas fa-envelope"></i> ivanf.if06@gmail.com</p>
+                        <p class="card-text">
+                            <i class="fab fa-linkedin"></i>
+                            <a href="https://www.linkedin.com/in/ivan-firmansyah-9027301a3/" class="text-white" target="_blank">Ivan Firmansyah</a>
+                        </p>
+                    </div>
+                </div>
+            </div>  
+            <div class="col-lg-8">
+                <div class="alert alert-success alert-dismissible fade show d-none my-alert" role="alert">
+                    <strong>Berhasil!</strong> pesan Anda sudah saya terima. Terima kasih
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                </div>
+                  <div class="alert alert-success alert-dismissible fade show d-none my-alert-gagal" role="alert">
+                    <strong>Gagal!</strong> Maaf, pesan Anda tidak terkirim.
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                  </div>
+                <form name="form-bioIvan">
+                    <div class="mb-3">
+                      <label for="nama">Nama</label>
+                      <input type="text" class="form-control" id="nama" name="nama" required>
+                    <div class="mb-3">
+                      <label for="email">Email</label>
+                      <input type="email" class="form-control" id="email" name="email" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="pesan">Pesan</label>
+                        <textarea class="form-control" id="pesan" name="pesan" rows="3" required></textarea>
+                      </div>
+                    <button type="submit" class="btn btn-primary btn-kirim">Kirim</button>
+                    <button class="btn btn-primary btn-loading d-none" type="button" disabled>
+                        <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+                        Loading...
+                      </button>
+                  </form>
+            </div>              
+        </div>
+    </div>   
+</section>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#142a35" fill-opacity="1" d="M0,96L48,85.3C96,75,192,53,288,69.3C384,85,480,139,576,138.7C672,139,768,85,864,90.7C960,96,1056,160,1152,165.3C1248,171,1344,117,1392,90.7L1440,64L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+<!-- Akhir Contact -->
 
-    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+<footer>
+  <div class="row pb-3" style="background-color: #142a35">
+      <div class="col-lg">          
+          <div class="text-center text-white">
+              created with <i class="fas fa-heart text-danger"></i> by
+              <a class="text-white font-weight-bold" target="_blank" href="https://www.instagram.com/ivanfsyh/"><i class="fab fa-instagram"></i> ivanfsyh</a>
+          </div>
+         
+      </div>
+  </div>
+</footer>
 
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <!--
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
-    -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
 
     <script>
-        const scriptURL = 'https://script.google.com/macros/s/AKfycbwg_fiGb6QffP1DdDgziMrggsqoHctGwTL5C5ITfKu3nDASfP318Iznk9t2K_ynN2pc/exec';
-        const form = document.forms['form-bioIvan'];
-        const btnKirim = document.querySelector('.btn-kirim');
-        const btnLoading = document.querySelector('.btn-loading');
-        const myAlert = document.querySelector('.my-alert');
-        const myAlertGagal = document.querySelector('.my-alert-gagal');
+      const scriptURL = 'https://script.google.com/macros/s/AKfycbwg_fiGb6QffP1DdDgziMrggsqoHctGwTL5C5ITfKu3nDASfP318Iznk9t2K_ynN2pc/exec';
+      const form = document.forms['form-bioIvan'];
+      const btnKirim = document.querySelector('.btn-kirim');
+      const btnLoading = document.querySelector('.btn-loading');
+      const myAlert = document.querySelector('.my-alert');
+      const myAlertGagal = document.querySelector('.my-alert-gagal');
+    
       
-        
-        form.addEventListener('submit', e => {
-        //ketika tombol submit diklik
-        //tampilkan tombol loading, hilangkan tombol kirim        
-        btnLoading.classList.toggle('d-none');
-        btnKirim.classList.toggle('d-none');
-          e.preventDefault()
-          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-            .then(response =>{ 
-                //tampilkan tombol kirim hilangkan tombol loading
-                btnLoading.classList.toggle('d-none');
-                btnKirim.classList.toggle('d-none');
-                //tampilkan alert
-                myAlert.classList.toggle('d-none');
-                //reset form
-                form.reset();
-                console.log('Success!', response)
-            })
-            .catch(error => {
-                 //tampilkan alert gagal
-                 myAlertGagal.classList.toggle('d-none');
-                console.error('Error!', error.message)
-            })
-        })
-      </script>
+      form.addEventListener('submit', e => {
+      //ketika tombol submit diklik
+      //tampilkan tombol loading, hilangkan tombol kirim        
+      btnLoading.classList.toggle('d-none');
+      btnKirim.classList.toggle('d-none');
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+          .then(response =>{ 
+              //tampilkan tombol kirim hilangkan tombol loading
+              btnLoading.classList.toggle('d-none');
+              btnKirim.classList.toggle('d-none');
+              //tampilkan alert
+              myAlert.classList.toggle('d-none');
+              //reset form
+              form.reset();
+              console.log('Success!', response)
+          })
+          .catch(error => {
+               //tampilkan alert gagal
+               myAlertGagal.classList.toggle('d-none');
+              console.error('Error!', error.message)
+          })
+      })
+    </script>
+
   </body>
 </html>
